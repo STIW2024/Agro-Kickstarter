@@ -68,7 +68,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">About Us</a></li>
         <li><a href="#">Featured Projects</a></li>
-        <button type="button" class="btn btn-default">Sign Up</button>
+     <a href="trylogin.jsp" class="btn btn-info" role="button">Login</a>
       </ul>
     </div>
   </div>

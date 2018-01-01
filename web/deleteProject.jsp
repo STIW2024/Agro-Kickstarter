@@ -35,15 +35,15 @@
       <table border="0" width="300" align="center" bgcolor="pink">
         <tr><td colspan=2 style="font-size:12pt;" align="center">
         <h3>Delete which project?</h3></td></tr>
-        <tr><td ><font size="5">Project Name</td>
-          <td>: <input  type="text" name="projectName" placeholder="Project Name" id="projectName">
+        <tr>
+          <td> <input  type="text" name="projectName" placeholder="Project Name" id="projectName">
         </td></tr>         
         <tr><td colspan=2 align="center">
         <input  type="submit" name="submit" value="Submit"></td></tr>
       </table>
     </form>
     <div align="center">
-            <a href="userview.jsp"><button type ="submit" class="btn btn-default">Back to menu</button>
+            <a href="userview.jsp"><button type ="submit" >Back to menu</button>
             </div>
   </body>
 </html>

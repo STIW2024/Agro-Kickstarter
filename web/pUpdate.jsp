@@ -34,7 +34,7 @@
     <form method="post" name="frm" action="pupdate">
       <table border="0" width="300" align="center" bgcolor="pink">
         <tr><td colspan=2 style="font-size:12pt;" align="center">
-        <h3>What do you want to comment?</h3></td></tr>
+        <h3>What do you want to update?</h3></td></tr>
         <tr><td ><font size="5">Project Name</td>
           <td>: <input  type="text" name="projectName" placeholder="Project Name" id="projectName">
         </td></tr>        

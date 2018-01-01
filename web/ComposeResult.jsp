@@ -46,6 +46,7 @@
                 <a href="index.jsp"><button>Back to Main Page</button></a>
                 <%
                 }catch(Exception e){
+                    response.sendRedirect("composeproject.jsp");
                     out.println(e);
                 }
                 %>

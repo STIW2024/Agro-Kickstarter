@@ -43,7 +43,7 @@
                     <% out.println("Successful Register"); %>
                 </div>
                 <a href="userview.jsp"><button>Back to Menu</button></a>
-                <a href="index.jsp"><button>Back to Main Page</button></a>
+                
                 <%
                 }catch(Exception e){
                     response.sendRedirect("composeproject.jsp");

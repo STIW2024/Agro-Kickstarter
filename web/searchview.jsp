@@ -45,8 +45,11 @@
                 <td><%=pList.get(4)%></td>
                 <td><%=pList.get(5)%></td>
             </tr>
+            <tr><br></tr>
             <td colspan=6 align="center"><a href="payment.jsp" class="btn btn-info" align="center" role="button">Donate</a></tr></td>
-        <td colspan=6 align="center"><a href="comment.jsp" class="btn btn-info" align="center"  role="button">Comment</a></tr></td>
+            <tr><br></tr>
+            <td colspan=6 align="center"><a href="comment.jsp" class="btn btn-info" align="center"  role="button">Comment</a></tr></td>
+            <tr><br></tr>
                 
         
            
@@ -55,6 +58,7 @@
                 }
                 if (count == 0) {
             %>
+            
             <tr>
                 <td colspan=4 align="center"
                     style="background-color:#eeffee"><b>No Record Found..</b></td>

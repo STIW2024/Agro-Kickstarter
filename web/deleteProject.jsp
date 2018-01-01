@@ -24,8 +24,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
           <div class="section-block signup">	             
-        <li><a href="featured.jsp">Featured Project of the Month</a></li>    
-        <li><a href="userview.jsp">User Menu</a></li> 
+          
+        <li><a href="adminview.jsp"> Menu</a></li> 
       </ul>
     </div>
   </div>
@@ -37,11 +37,13 @@
         <h3>Delete which project?</h3></td></tr>
         <tr>
           <td> <input  type="text" name="projectName" placeholder="Project Name" id="projectName">
-        </td></tr>         
-        <tr><td colspan=2 align="center">
+        </td></tr>  
+        <tr><td><br></td></tr>
+        <tr><br><td colspan=2 align="center">
         <input  type="submit" name="submit" value="Submit"></td></tr>
       </table>
     </form>
+    <br>
     <div align="center">
             <a href="userview.jsp"><button type ="submit" >Back to menu</button>
             </div>

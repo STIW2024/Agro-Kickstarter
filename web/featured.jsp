@@ -93,8 +93,8 @@
 							<div role="tabpanel" class="tab-pane active" id="about">
 								<div class="about-information">
 									<h1 class="section-title">ABOUT</h1>
-									<p>Testing 123.</p>
-									<p>Kill me please.</p>
+									<p>Just a small startup based in Kedah with a dream!</p>
+									
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane active" id="updates">

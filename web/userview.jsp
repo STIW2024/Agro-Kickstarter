@@ -77,6 +77,11 @@ body {
     <p>Make Malaysia great!</p>
     <div id="button"><a href="payment.jsp">Donate</a></div>
   </div>
+     <div class="column" style="background-color:#FFC0CB;">
+    <h2>Comment on Projects</h2>
+    <p>Leave some good feedbacks!</p>
+    <div id="button"><a href="comment.jsp">Comment</a></div>
+  </div>
 </div>
 </body>
 </html>

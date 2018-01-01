@@ -55,6 +55,7 @@ public class donate extends HttpServlet {
 
         catch (Exception e) {
          e.printStackTrace();
+         response.sendRedirect("payment.jsp");
 
         }
     }

@@ -43,7 +43,7 @@ ResultSet resultSet = null;
           <div class="section-block signup">	
           
               
-        <li><a href="featured.jsp">Featured Project of the Month</a></li>    
+        <li><a href="adminview.jsp">Back to Menu</a></li>    
       </ul>
     </div>
   </div>

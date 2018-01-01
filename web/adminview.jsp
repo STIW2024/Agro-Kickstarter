@@ -62,7 +62,7 @@ body {
    
     <div id="button"><a href="adminviewproject.jsp">View</a></div>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column" style="background-color:	#add8e6;">
     <h2>Delete Project</h2>
     <div id="button"><a href="deleteProject.jsp">Delete</a></div>
   </div>

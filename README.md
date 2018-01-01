@@ -1,7 +1,6 @@
 # Agro-Kickstarter
 
-
-
+Team Members
 | Name | Matrix |
 | ------------- | ------------- |
 | Kong Zhen Kit  | 246105  |

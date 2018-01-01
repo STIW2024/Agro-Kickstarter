@@ -64,7 +64,7 @@ body {
   </div>
   <div class="column" style="background-color:#bbb;">
     <h2>Delete Project</h2>
-    <div id="button"><a href="deleteproject.jsp">Delete</a></div>
+    <div id="button"><a href="deleteProject.jsp">Delete</a></div>
   </div>
 </div>
 

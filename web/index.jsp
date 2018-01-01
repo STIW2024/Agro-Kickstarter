@@ -43,8 +43,8 @@
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">About Us</h3>
   <p>We are a crowdfunding website that provides user a platform for them to promote their creative projects that are related to agriculture industry in Malaysia. </p>
-  <a href="search.jsp" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search 
+  <a href="guestview.jsp" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> View Projects 
   </a>
 </div>
 

@@ -61,6 +61,7 @@ public class search extends HttpServlet {
             System.out.println("Disconnected!");
         } catch (Exception e) {
             e.printStackTrace();
+            response.sendRedirect("search.jsp");
         }
     }
  

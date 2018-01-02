@@ -40,7 +40,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
         request.setAttribute(".", msg);
         
          st.close();
-              RequestDispatcher rd = request.getRequestDispatcher("/viewprojects.jsp");
+              RequestDispatcher rd = request.getRequestDispatcher("/adminviewproject.jsp");
               rd.forward(request, response);
                con.close();
         }

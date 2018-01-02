@@ -13,10 +13,10 @@
 <%
 String id = request.getParameter("userId");
 String driverName = "com.mysql.jdbc.Driver";
-String connectionUrl = "jdbc:mysql://localhost:3306/";
+String connectionUrl = "jdbc:mysql://node164970-agro-kickstarter.j.layershift.co.uk/";
 String dbName = "projectcontent";
 String userId = "root";
-String password = "";
+String password = "saLdk1o8jG";
 
 try {
 Class.forName(driverName);
@@ -59,6 +59,7 @@ ResultSet resultSet = null;
 <td><b>Project Name</b></td>
 <td><b>Project Owner</b></td>
 <td><b>Current Fund</b></td>
+<td><b>Expected Fund</b></td>
 <td><b>Project Period</b></td>
 <td><b>Description</b></td>
 <td><b>Comments</b></td>
@@ -78,6 +79,7 @@ while(resultSet.next()){
 <td><%=resultSet.getString("projectName") %></td>
 <td><%=resultSet.getString("projectOwner") %></td>
 <td><%=resultSet.getString("currentFund") %></td>
+<td><%=resultSet.getString("wantedFund") %></td>
 <td><%=resultSet.getString("projectPeriod") %></td>
 <td><%=resultSet.getString("description") %></td>
 <td><%=resultSet.getString("comment") %></td>

@@ -10,7 +10,7 @@
         <table width="700px" align="center"
                style="border:1px solid #000000;">
             <tr>
-                <td colspan=7 align="center"
+                <td colspan=8 align="center"
                     style="background-color:teal">
                     <b>User Record</b></td>
             </tr>
@@ -18,6 +18,7 @@
                 <td><b>Project Name</b></td>
                 <td><b>Project Owner</b></td>
                 <td><b>Current Fund</b></td>
+                <td><b>Expected Fund</b></td>
                 <td><b>Project Period</b></td>
                 <td><b>Description</b></td>
                 <td><b>Comments</b></td>
@@ -46,11 +47,12 @@
                 <td><%=pList.get(4)%></td>
                 <td><%=pList.get(5)%></td>
                 <td><%=pList.get(6)%></td>
+                <td><%=pList.get(7)%></td>
             </tr>
             <tr><br></tr>
-            <td colspan=6 align="center"><a href="payment.jsp" class="btn btn-info" align="center" role="button">Donate</a></tr></td>
+            <td colspan=8 align="center"><a href="payment.jsp" class="btn btn-info" align="center" role="button">Donate</a></tr></td>
             <tr><br></tr>
-            <td colspan=6 align="center"><a href="comment.jsp" class="btn btn-info" align="center"  role="button">Comment</a></tr></td>
+            <td colspan=8 align="center"><a href="comment.jsp" class="btn btn-info" align="center"  role="button">Comment</a></tr></td>
             <tr><br></tr>
                 
         
@@ -62,12 +64,12 @@
             %>
             
             <tr>
-                <td colspan=4 align="center"
+                <td colspan=8 align="center"
                     style="background-color:#eeffee"><b>No Record Found..</b></td>
             </tr>
             <%            }
             %>
-            <td align="center" colspan=6>
+            <td align="center" colspan=7>
         <a href="userview.jsp" class="btn btn-info" role="button">Back to main menu</a>
     </td>
         </table>

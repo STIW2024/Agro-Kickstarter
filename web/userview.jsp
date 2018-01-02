@@ -85,7 +85,7 @@ body {
     <div class="column" style="background-color:#add8e6;">
     <h2>Search!</h2>
     <p>Which project do you want to see?</p>
-    <div id="button"><a href="comment.jsp">Search</a></div>
+    <div id="button"><a href="search.jsp">Search</a></div>
   </div>
 </div>
 </body>

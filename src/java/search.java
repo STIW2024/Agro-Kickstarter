@@ -15,11 +15,11 @@ public class search extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         Connection conn = null;
-        String url = "jdbc:mysql://localhost:3306/";
+        String url = "jdbc:mysql://node164970-agro-kickstarter.j.layershift.co.uk/";
         String dbName = "projectcontent";
         String driver = "com.mysql.jdbc.Driver";
         String userName = "root";
-        String password = "";
+        String password = "saLdk1o8jG";
  
         Statement st;
         try {
@@ -49,7 +49,7 @@ public class search extends HttpServlet {
                 al.add(rs.getString(4));
                 al.add(rs.getString(5));
                 al.add(rs.getString(6));
- 
+                al.add(rs.getString(7));
                 System.out.println("al :: " + al);
                 pid_list.add(al);
             }
@@ -61,7 +61,7 @@ public class search extends HttpServlet {
             System.out.println("Disconnected!");
         } catch (Exception e) {
             e.printStackTrace();
-            response.sendRedirect("search.jsp");
+            response.sendRedirect("search.jsp");           
         }
     }
  

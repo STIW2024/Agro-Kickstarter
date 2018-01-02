@@ -45,7 +45,7 @@
     </form>
     <br>
     <div align="center">
-            <a href="userview.jsp"><button type ="submit" >Back to menu</button>
+            <a href="adminview.jsp"><button type ="submit" >Back to menu</button>
             </div>
   </body>
 </html>

@@ -62,17 +62,17 @@ body {
     <p>Check out all the cool projects available!</p>
     <div id="button"><a href="viewprojects.jsp">View</a></div>
   </div>
-  <div class="column" style="background-color:#ff0033;">
+  <div class="column" style="background-color:#add8e6;">
     <h2>Compose a project!</h2>
     <p>Write your very own idea! Let's get started.</p>
     <div id="button"><a href="composeproject.jsp">Compose</a></div>
   </div>
-    <div class="column" style="background-color:#2bc22e;">
+    <div class="column" style="background-color:#add8e6;">
     <h2>Update your project!</h2>
     <p>What's your progress?</p>
     <div id="button"><a href="pUpdate.jsp">Compose</a></div>
   </div>
-    <div class="column" style="background-color:#008080;">
+    <div class="column" style="background-color:#FFC0CB;">
     <h2>Donate to a Project</h2>
     <p>Make Malaysia great!</p>
     <div id="button"><a href="payment.jsp">Donate</a></div>
@@ -81,6 +81,11 @@ body {
     <h2>Comment on Projects</h2>
     <p>Leave some good feedbacks!</p>
     <div id="button"><a href="comment.jsp">Comment</a></div>
+  </div>
+    <div class="column" style="background-color:#add8e6;">
+    <h2>Search!</h2>
+    <p>Which project do you want to see?</p>
+    <div id="button"><a href="comment.jsp">Search</a></div>
   </div>
 </div>
 </body>

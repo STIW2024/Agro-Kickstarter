@@ -25,7 +25,7 @@
       <ul class="nav navbar-nav navbar-right">
           <div class="section-block signup">	
          
-        <li><a href="trylogin.jsp">Login</a></li> 
+        <li><a href="userview.jsp">Menu</a></li> 
       </ul>
     </div>
   </div>

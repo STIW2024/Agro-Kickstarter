@@ -68,7 +68,7 @@
             <%            }
             %>
             <td align="center" colspan=6>
-        <a href="index.jsp" class="btn btn-info" role="button">Back to main menu</a>
+        <a href="userview.jsp" class="btn btn-info" role="button">Back to main menu</a>
     </td>
         </table>
     

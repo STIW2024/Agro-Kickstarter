@@ -10,17 +10,18 @@
         <table width="700px" align="center"
                style="border:1px solid #000000;">
             <tr>
-                <td colspan=6 align="center"
+                <td colspan=7 align="center"
                     style="background-color:teal">
                     <b>User Record</b></td>
             </tr>
             <tr style="background-color:lightgrey;">
                 <td><b>Project Name</b></td>
                 <td><b>Project Owner</b></td>
-                <td><b>Current Funds</b></td>
+                <td><b>Current Fund</b></td>
                 <td><b>Project Period</b></td>
                 <td><b>Description</b></td>
                 <td><b>Comments</b></td>
+                <td><b>Updates</b></td>
             </tr>
             <%
                 int count = 0;
@@ -44,6 +45,7 @@
                 <td><%=pList.get(3)%></td>
                 <td><%=pList.get(4)%></td>
                 <td><%=pList.get(5)%></td>
+                <td><%=pList.get(6)%></td>
             </tr>
             <tr><br></tr>
             <td colspan=6 align="center"><a href="payment.jsp" class="btn btn-info" align="center" role="button">Donate</a></tr></td>

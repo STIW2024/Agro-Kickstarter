@@ -69,7 +69,7 @@
             </tr>
             <%            }
             %>
-            <td align="center" colspan=7>
+            <td align="center" colspan=8>
         <a href="userview.jsp" class="btn btn-info" role="button">Back to main menu</a>
     </td>
         </table>

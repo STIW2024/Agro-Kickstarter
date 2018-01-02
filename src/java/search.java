@@ -50,6 +50,7 @@ public class search extends HttpServlet {
                 al.add(rs.getString(5));
                 al.add(rs.getString(6));
                 al.add(rs.getString(7));
+                al.add(rs.getString(8));
                 System.out.println("al :: " + al);
                 pid_list.add(al);
             }

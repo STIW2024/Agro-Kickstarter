@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import javax.servlet.RequestDispatcher;
 
 public class validate {
-    public static boolean validate(String name, String pass) {        
+    public static boolean validate(String name, String pass , String role) {        
         boolean status = false;
         Connection conn = null;
         PreparedStatement pst = null;
@@ -25,9 +25,10 @@ public class validate {
                     .getConnection(url + dbName, userName, password);
 
             pst = conn
-                    .prepareStatement("select * from login where name=? and password=?");
+                    .prepareStatement("select * from login where name=? and password=? and role=?");
             pst.setString(1, name);
             pst.setString(2, pass);
+            pst.setString(3, role);
 
             rs = pst.executeQuery();
             status = rs.next();

@@ -14,7 +14,7 @@ public class login extends HttpServlet {
         String passwd = request.getParameter("passwd");
         String role = request.getParameter("role");
         
-        if(validate.validate(uname, passwd))
+        if(validate.validate(uname, passwd ,role))
         {
            if (role.equalsIgnoreCase("admin")){
             RequestDispatcher rs = request.getRequestDispatcher("adminview.jsp");

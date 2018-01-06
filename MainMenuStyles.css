@@ -1,0 +1,22 @@
+.body{
+	background-color: #FAB75B;
+}
+
+.navbar-default{
+	background-color: #9D6312;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color: #000000;
+	background-color: transparent;
+}
+
+.navbar-right{
+    color: #FFFFFF;
+}
